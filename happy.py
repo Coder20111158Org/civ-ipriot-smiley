@@ -14,7 +14,6 @@ class Happy(Smiley, Blinkable):
     """
     def __init__(self):
         super().__init__()
-
         self.draw_mouth()
         self.draw_eyes()
 
